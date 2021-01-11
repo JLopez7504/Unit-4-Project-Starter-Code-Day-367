@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(gray, white);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+img {
+    height: 200px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+li {
+    float: left;
+    padding: 10px;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgray;
+}
+
+.navBar {
+    background-color: white;
+    border: black 5px solid;
+}
+
+.hind {
+    font-family: 'Hind', sans-serif;
+}
+
+.grayBorder {
+    border: white 1px double;
+    padding: 5px;
+    margin: 5px;
+}
+
+.size {
+    height: 198px;
+    width: 360px;
+}
+
+.video {
+    width: 280px;
+    height: 198px;
+}
+
+.center {
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vollkorn {
+    font-family: 'Vollkorn', serif;
+}
+
+.marker {
+    font-family: 'Permanent Marker', cursive;
+}
